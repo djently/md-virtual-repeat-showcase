@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="gridTest">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+
+  	<div ng-controller="GridController as vm">
+		<md-virtual-repeat-container md-auto-shrink="10" style="height: 500px">
+		  <div md-virtual-repeat="row in vm.data" style="height: 40px" class="repeat-wrapper">
+		  	<row row-data="row" />
+		  </div>
+		</md-virtual-repeat-container>
+  	</div>
+
+  </body>
+</html>

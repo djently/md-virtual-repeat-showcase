@@ -1,0 +1,11 @@
+.gt-cell {
+	width: calc(14.28% - 10px);
+	display: inline-block;
+	padding: 5px;
+}
+
+.gt-cell__piece {
+	display: inline-block;
+	height: 30px;
+	content: ' ';
+}
