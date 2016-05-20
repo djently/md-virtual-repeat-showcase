@@ -1,5 +1,4 @@
-# gridTest
-Testing ui.grid rendering complex data
+# md-virtual-repeat showcase
 
 Run `npm install` to install packages
 
